@@ -1,7 +1,7 @@
 {
     "recipes": {
         "legit-health/dapi-sdk-symfony-bundle": [
-            "0.1.0"
+            "0.1"
         ]
     },
     "branch": "master",
