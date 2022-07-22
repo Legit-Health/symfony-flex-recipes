@@ -8,7 +8,10 @@
                 "env": {
                     "LEGIT_HEALTH_DAPI_API_URL": "",
                     "LEGIT_HEALTH_DAPI_API_KEY": ""
-                }
+                },
+                "post-install-output": [
+                    "<bg=blue;fg=white>Fill the environment variables LEGIT_HEALTH_DAPI_API_URL and LEGIT_HEALTH_DAPI_API_KEY in .env file</>"
+                ]
             },
             "files": {
                 "config/packages/legit_health_dapi.yaml": {
