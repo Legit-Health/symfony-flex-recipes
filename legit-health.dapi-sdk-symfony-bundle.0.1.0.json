@@ -2,11 +2,6 @@
     "manifests": {
         "legit-health/dapi-sdk-symfony-bundle": {
             "manifest": {
-                "bundles": {
-                    "LegitHealth\\DapiBundle\\LegitHealthDapiBundle": [
-                        "all"
-                    ]
-                },
                 "copy-from-recipe": {
                     "config/": "%CONFIG_DIR%"
                 },
@@ -26,7 +21,7 @@
                     "executable": false
                 }
             },
-            "ref": "c00a40e709a47387b46a05f801f9b2262c0945ba"
+            "ref": "b422bb2cc63187636cfe1562232015a6d8958a1d"
         }
     }
 }
