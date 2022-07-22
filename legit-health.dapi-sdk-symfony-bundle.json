@@ -1,0 +1,32 @@
+{
+    "manifests": {
+        "legit-health/dapi-sdk-symfony-bundle": {
+            "manifest": {
+                "bundles": {
+                    "LegitHealth\\DapiBundle\\LegitHealthDapiBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%"
+                },
+                "env": {
+                    "LEGIT_HEALTH_DAPI_API_URL": "",
+                    "LEGIT_HEALTH_DAPI_API_KEY": ""
+                }
+            },
+            "files": {
+                "config/packages/legit_health_dapi.yaml": {
+                    "contents": [
+                        "legit_health_dapi:",
+                        "    api_url: '%env(resolve:LEGIT_HEALTH_DAPI_API_URL)%'",
+                        "    api_keu: '%env(resolve:LEGIT_HEALTH_DAPI_API_KEY)%'",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "2faa9bd366654c5497c64fcc11f835b212c671eb"
+        }
+    }
+}

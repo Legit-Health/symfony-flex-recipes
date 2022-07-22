@@ -1,0 +1,14 @@
+{
+    "recipes": {
+        "legit-health/dapi-sdk-symfony-bundle": [
+            "1.0.0"
+        ]
+    },
+    "branch": "master",
+    "is_contrib": true,
+    "_links": {
+        "repository": "github.com/Legit-Health/symfony-flex-recipes",
+        "origin_template": "{package}:{version}@github.com/Legit-Health/symfony-flex-recipes:master",
+        "recipe_template": "https://api.github.com/repos/Legit-Health/symfony-flex-recipes/contents/{package_dotted}.{version}.json"
+    }
+}
