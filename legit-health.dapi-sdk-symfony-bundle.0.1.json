@@ -23,13 +23,13 @@
                     "contents": [
                         "legit_health_dapi:",
                         "    api_url: '%env(resolve:LEGIT_HEALTH_DAPI_API_URL)%'",
-                        "    api_keu: '%env(resolve:LEGIT_HEALTH_DAPI_API_KEY)%'",
+                        "    api_key: '%env(resolve:LEGIT_HEALTH_DAPI_API_KEY)%'",
                         ""
                     ],
                     "executable": false
                 }
             },
-            "ref": "8e0cc313b13026434de61381f59ccf0622cc86b6"
+            "ref": "297fe0342e17f48ee2de0a4c1d58394a278f3801"
         }
     }
 }
