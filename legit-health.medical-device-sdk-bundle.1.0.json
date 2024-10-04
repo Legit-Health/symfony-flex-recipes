@@ -18,16 +18,16 @@
                 ]
             },
             "files": {
-                "config/packages/legit_health_dapi.yaml": {
+                "config/packages/legit_health_medical_device.yaml": {
                     "contents": [
-                        "legit_health_dapi:",
+                        "legit_health_medical_device:",
                         "    api_url: '%env(resolve:LEGIT_HEALTH_MEDICAL_DEVICE_API_URL)%'",
                         ""
                     ],
                     "executable": false
                 }
             },
-            "ref": "5dd7787cc4767b5a3f9c8b3903a677159bb62227"
+            "ref": "e67a3ba6d6f3b397cd7682f1508d72e7a6c3c204"
         }
     }
 }
